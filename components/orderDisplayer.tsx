@@ -17,7 +17,7 @@ export default function OrderDisplayer({ pokedexNumber, pokemonName, isShiny, qu
             />
             <div className="text-center font-bold">
                 <p className="text-xl">{glossary.orderDisplayer.title}</p>
-                <h2 className="text-4xl">{pokemonName}{isShiny ? "✨" : ""}</h2>
+                <h2 className="text-[42px]">{pokemonName}{isShiny ? "✨" : ""}</h2>
             </div>
             {queueCount > 0 && (
                 <div className="text-xl font-bold">

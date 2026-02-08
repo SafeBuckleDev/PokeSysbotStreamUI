@@ -2,7 +2,7 @@ import glossary from "@/glossary";
 
 export function TextScroller() {
     return (
-        <div className="w-359 h-16 font-bold items-center text-4xl text-nowrap overflow-hidden text-foreground bg-background-accent px-4 rounded-2xl shadow-xl relative">
+        <div className="w-359 h-16 font-bold items-center text-3xl text-nowrap overflow-hidden text-foreground bg-background-accent px-4 rounded-2xl shadow-xl relative">
             <div className="w-full h-full flex flex-row gap-16 items-center overflow-hidden rounded-lg relative" >
                 <p className="px-16 scroll-item">{glossary.general.streaminfo}</p>
                 <p className="px-16 scroll-item">{glossary.general.streaminfo}</p>
