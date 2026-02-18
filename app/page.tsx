@@ -11,7 +11,9 @@ export default function Home() {
   return (
     <div className="w-full p-12 aspect-video bg-background flex flex-row gap-8">
       <div className="flex flex-col gap-8">
-        <GameOverlay />
+        <div className="w-359 aspect-video grid grid-cols-1 grid-rows-1 gap-4">
+          <GameOverlay />
+        </div>
         <TextScroller />
       </div>
 

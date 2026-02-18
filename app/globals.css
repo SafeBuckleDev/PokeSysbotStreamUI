@@ -12,6 +12,7 @@
 @theme {
   --color-foreground: var(--foreground);
   --color-background: var(--background);
+  --color-screen-background: #00b140;
   --color-background-accent: var(--background-accent);
   --color-gradient-start: #ff0044;
   --color-gradient-end: #feae35;

@@ -8,10 +8,14 @@ export interface orderInfo {
 }
 
 export default function OrderDisplayer({ pokedexNumber, pokemonName, isShiny, queueCount }: orderInfo) {
+
+    // Convert spaces to dashes for the URL
+    const formattedName = pokemonName.replace(/\s+/g, "-").toLowerCase();
+
     return (
         <div className="w-full h-230 bg-background-accent rounded-2xl shadow-xl p-4 flex flex-col items-center justify-center gap-4">
             <img 
-                src={`https://img.pokemondb.net/sprites/home/${isShiny ? "shiny" : "normal"}/2x/${pokemonName.toLowerCase()}.jpg`} 
+                src={`https://img.pokemondb.net/sprites/home/${isShiny ? "shiny" : "normal"}/2x/${formattedName}.jpg`} 
                 alt={pokemonName} 
                 className="w-full px-4"
             />
