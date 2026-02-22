@@ -15,7 +15,7 @@ export default function OrderDisplayer({ pokedexNumber, pokemonName, isShiny, qu
     return (
         <div className="w-full h-230 bg-background-accent rounded-2xl shadow-xl p-4 flex flex-col items-center justify-center gap-4">
             <img 
-                src={`https://img.pokemondb.net/sprites/home/${isShiny ? "shiny" : "normal"}/2x/${formattedName}.jpg`} 
+                src={`https://raw.githubusercontent.com/hexbyt3/sprites/refs/heads/main/${isShiny ? "Shiny" : "Non-Shiny"}/${formattedName}.png`} 
                 alt={pokemonName} 
                 className="w-full px-4"
             />

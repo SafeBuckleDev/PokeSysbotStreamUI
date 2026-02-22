@@ -19,7 +19,7 @@ export default function MobilePage(){
 
             {trade && <div className="w-full bg-background-accent p-4 py-16 rounded-2xl shadow-2xl flex flex-col gap-6">
                 <img 
-                    src={`https://img.pokemondb.net/sprites/home/${trade.isShiny ? "shiny" : "normal"}/2x/${formattedName}.jpg`} 
+                    src={`https://raw.githubusercontent.com/hexbyt3/sprites/refs/heads/main/${trade.isShiny ? "Shiny" : "Non-Shiny"}/${formattedName}.png`} 
                     alt={trade.pokemonName} 
                     className="w-full px-30"
                 />
